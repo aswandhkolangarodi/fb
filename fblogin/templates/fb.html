@@ -1,0 +1,104 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="{% static 'css/fb.css' %}"> 
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a class="logo-text" href="fb.html">facebook</a>
+        </div>
+        <div class="login">
+            <table class="login-controls">
+                <tr >
+                    <td class="email-pas">
+                        Email or Mobile
+                    </td>
+                    <td class="email-pas">
+                        Password
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                    <td>
+                        <button class="button">Login</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a class="forgotten" href=""> Forgotten account</a></td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+    <div class="main-body">
+        <div class="left-section">
+            <p class="para">Facebook helps you connect and share with the <br> people in your life.</p>
+             <img class="img" src="{% static 'img/fb2.png'%}" alt="image not found">
+        </div>
+        <div class="right-section">
+            <div>
+                <p class="create-ac">Cteate an account</p>
+                <p class="easy">It's quick and easy.</p>
+                <div class="form">
+                <input placeholder="First name" type="text"  class="first-name">
+                <input placeholder="Surname" class="sur" type="text"><br>
+                <input class="mobile-email" placeholder="Mobile number or email address" type="text"><br>
+                <input type="text" placeholder="New password" class="new-pas">
+                 </div>
+                <br>
+                <h4 class="b-g">Birthday</h4>
+                <select class="day" name="" id="">
+                    <option value="">day</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
+                <select name="" class="day" id="">
+                    <option value="">jan</option>
+                    <option value="">feb</option>
+                    <option value="">mar</option>
+                    <option value="">apr</option>
+                    <option value="">may</option>
+                </select>
+                <select name="" class="day" id="">
+                    <option value="">2000</option>
+                    <option value="">1999</option>
+                    <option value="">1998</option>
+                    <option value="">1997</option>
+                    <option value="">1996</option>
+                    <option value="">1995</option>
+                    <option value="">1994</option>
+                </select>
+                <img src="{% static 'img/fb3' %}" class="img2" alt=""><br>
+                <h4 class="b-g">Gender</h4>
+                <div class="gender">
+                    <input name="gender" type="radio">Female<input name="gender" type="radio">Male<input name="gender" type="radio">custom
+                    <img src="{% static 'img/fb3' %}" class="img2" alt="">
+                </div>
+                <p class="sign-text">By clicking sign up,you agree to our <a class="terms" href="">Terms</a> , <a class="terms" href="">Data policy</a> <br>
+                and <a class="terms" href="">cookie policy</a>.You may receive SMS notification from <br>
+                us and can get out at any time. </p>
+                <button class="sign-up">Sign Up</button>
+                <br><br>
+                <p class="sign-text1"><a class="terms" href="">Create a page </a> for celebration.</p>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

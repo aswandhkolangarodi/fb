@@ -1,0 +1,145 @@
+.header{
+    width: 100%;
+    height: 85px;
+    background-color: #3b5998;
+}
+body{
+ font-family: sans-serif;
+}
+.logo{
+    width: 50%;
+    padding-top: 24px;
+    float: left;
+    
+    
+}
+.login{
+    width: 50%;
+    float: left;
+    padding-top: 14px;
+    
+}
+.logo-text{
+    color: white;
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 130px;
+}
+
+.email-pas{
+    color: white;
+    font-size: 11px;
+}
+.login-controls{
+    margin-left: 170px;
+}
+.forgotten{
+    color: rgb(171, 154, 231);
+    font-size: 11px;
+    text-decoration: none;
+}
+.button{
+    background-color: rgb(47, 47, 212);
+    color: white;
+    border-radius: 8px;
+    border-color: darkblue;
+}
+.button:hover{
+    background: rgb(21, 21, 117);
+}
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 114px;
+    padding-top: 28px;
+}
+.right-section{
+    width: 31%;
+    float: left;
+    margin-left: 60px;
+    margin-top: -15px;
+}
+.main-body{
+    background: linear-gradient(white,#D3D8E8);
+    width: 100%;
+    height: 548px;
+
+}
+.img{
+    width: 400px;
+}
+.para{
+    font-weight: bold;
+    font-size: 21px;
+}
+.create-ac{
+    font-size:39px;
+    font-weight: bold;
+}
+.easy{
+    margin-top: -31px
+}
+.first-name{
+    width: 171px;
+    height: 22px;
+    margin-right: -9px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.sur{
+    width: 149px;
+    height: 22px;
+    border-radius: 5px;
+}
+.mobile-email{
+    margin-bottom: 10px;
+    width: 343px;
+    height: 22px;
+    border-radius: 5px;
+
+}
+.new-pas{
+    height: 22px;
+    width: 343px;
+    border-radius: 5px;
+}
+.img2{
+    width: 17px;
+    height: 11px;
+    background-color:rgb(114, 114, 192);
+    margin-left: 8px;
+}
+.gender{
+    margin: 8px;
+
+    
+}
+input{
+    margin-left: 20px;
+}
+.terms{
+    text-decoration: none;
+}
+.sign-text{
+    font-size: 13px;
+}
+.sign-up{
+    width: 120px;
+    height: 27px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+.sign-text1{
+    font-size: 15px;
+}
+.form{
+    margin-left: -20px;
+}
+.day{
+    border-width: 0px;
+    border-radius: 5px;
+}
