@@ -31,6 +31,7 @@ body{
 .email-pas{
     color: white;
     font-size: 11px;
+    margin-left: 10px;
 }
 .login-controls{
     margin-left: 170px;
